@@ -2,6 +2,22 @@
 
 ## Tips & Tricks
 
+### To-Do List
+
+First of all, clone the GitHub repo to your computer.
+
+Or download the desktop application for [Windows](https://windows.github.com/) & [Mac](https://mac.github.com/)
+
+```bash
+$ git clone https://github.com/osmottawa/Golf-Cart-Path.git
+```
+
+With JOSM, open the **Golf Cart Path.osm** within the `OSM` folder. This OSM layer should be used as a reference for the To-Do list.
+
+When you are finish an area, simply delete the OSM nodes from the To-Do list and save the **Golf Cart Path.osm** and commit the changes to GitHub to share the changes.
+
+```bash
+
 ### Detect road connections
 
 Detect Connection by selecting a Golf Cart Path & press `SHIFT+E`.
