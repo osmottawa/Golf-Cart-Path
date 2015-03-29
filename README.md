@@ -14,6 +14,8 @@ $ git clone https://github.com/osmottawa/Golf-Cart-Path.git
 
 With JOSM, open the **Golf Cart Path.osm** within the `OSM` folder. This OSM layer should be used as a reference for the To-Do list.
 
+![To-Do List][Image - To-Do List]
+
 When you are finish an area, simply delete the OSM nodes from the To-Do list and save the **Golf Cart Path.osm** and commit the changes to GitHub to share the changes.
 
 ```bash
@@ -93,3 +95,4 @@ You can combine filters together by adding OR in the middle of two expressions. 
 [Image - Filter - Golf Cart Designated]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Filter%20(golf_cart%3Ddesignated).png
 [Image - Filter - Golf Cart Yes/Designated]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Filter%20(golf_cart%3Dyes%20OR%20designated).png
 [Image - Filter - Highway Residential]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Filter%20(highway%3Dresidential).png
+[Image - To-Do List]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/To-Do%20List.png
