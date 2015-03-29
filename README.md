@@ -6,6 +6,13 @@
 
 Detect Connection by selecting a Golf Cart Path & press `SHIFT+E`.
 
+### JOSM Filters
+
+- golf_cart=designated
+- golf_cart=yes OR golf_cart=designated
+- highway=residential
+- highway=service
+
 ## OSM Tagging
 
 ### Parking
@@ -15,6 +22,15 @@ Detect Connection by selecting a Golf Cart Path & press `SHIFT+E`.
 |golf_cart  |[yes]         |The public has an official, legally-enshrined right of access; i.e., it's a right of way |
 |highway    |service       |
 |service    |parking_aisle |
+
+
+### Golf Club House
+
+|Key        |Value         | Description |
+|:----------|:-------------|:------------|
+|building   |yes           |
+|golf       |clubhouse     |
+|entrance   |yes/main      |
 
 
 ### Golf Cart Path
