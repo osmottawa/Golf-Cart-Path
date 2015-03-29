@@ -5972,11 +5972,6 @@
   <node id='-388836' visible='true' lat='28.98050642794' lon='-82.01348933654' />
   <node id='-388834' visible='true' lat='28.98090116614' lon='-82.01397009832' />
   <node id='-388832' visible='true' lat='28.9392306' lon='-82.0008886' />
-  <node id='-388820' visible='true' lat='28.92173543796' lon='-82.00414617336' />
-  <node id='-388818' visible='true' lat='28.92152751024' lon='-82.00425752677' />
-  <node id='-388816' visible='true' lat='28.92179329234' lon='-82.00494074645' />
-  <node id='-388814' visible='true' lat='28.92187555809' lon='-82.00495520612' />
-  <node id='-388812' visible='true' lat='28.92202802497' lon='-82.00486447597' />
   <node id='-388810' visible='true' lat='28.926838' lon='-81.944038' />
   <node id='-388808' visible='true' lat='28.926771' lon='-81.943648' />
   <node id='-388806' visible='true' lat='28.92676' lon='-81.943502' />
@@ -24482,14 +24477,6 @@
     <tag k='Golf Cart' v='Golf Cart Path' />
     <tag k='highway' v='residential' />
     <tag k='name' v='Rugby Way' />
-  </way>
-  <way id='-403994' visible='true'>
-    <nd ref='-388820' />
-    <nd ref='-388818' />
-    <nd ref='-388816' />
-    <nd ref='-388814' />
-    <nd ref='-388812' />
-    <tag k='Golf Cart' v='Golf Cart Path' />
   </way>
   <way id='-403992' visible='true'>
     <nd ref='-388810' />
