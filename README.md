@@ -19,6 +19,10 @@ With JOSM, open the **Golf Cart Path.osm** within the `OSM` folder. This OSM lay
 When you are finish an area, simply delete the OSM nodes from the To-Do list and save the **Golf Cart Path.osm** and commit the changes to GitHub to share the changes.
 
 ```bash
+$ git add -A
+$ git commit -m "New Changes"
+# git push
+```
 
 ### Detect road connections
 
