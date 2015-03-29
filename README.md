@@ -21,7 +21,7 @@ When you are finish an area, simply delete the OSM nodes from the To-Do list and
 ```bash
 $ git add -A
 $ git commit -m "New Changes"
-# git push
+$ git push
 ```
 
 ### Detect road connections
