@@ -12,11 +12,11 @@ Or download the desktop application for [Windows](https://windows.github.com/) &
 $ git clone https://github.com/osmottawa/Golf-Cart-Path.git
 ```
 
-With JOSM, open the **Golf Cart Path.osm** within the `OSM` folder. This OSM layer should be used as a reference for the To-Do list.
+With JOSM, open the **To-Do List.osm** within the `OSM` folder. This OSM layer should be used as a reference for the To-Do list.
 
 ![To-Do List][Image - To-Do List]
 
-When you are finish an area, simply delete the OSM nodes from the To-Do list and save the **Golf Cart Path.osm** and commit the changes to GitHub to share the changes.
+When you are finish an area, simply delete the OSM nodes from the To-Do list and save the **To-Do List.osm** and commit the changes to GitHub to share the changes.
 
 ```bash
 $ git add -A
