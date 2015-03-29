@@ -8,14 +8,33 @@ Detect Connection by selecting a Golf Cart Path & press `SHIFT+E`.
 
 ### JOSM Filters
 
-- golf_cart=designated
-- golf_cart=yes OR golf_cart=designated
-- highway=residential
-- highway=service
+You can combine filters together by adding OR in the middle of two expressions. (Ex: `golf_cart=yes OR golf_cart=designated`)
+
+![Golf Cart Designated][Image - Filter - Golf Cart Designated]
+
+**golf_cart=designated**
+
+|Key        |Value          | Description |
+|:----------|:--------------|:------------|
+|golf_cart  |designated     |
+|golf_cart  |yes            |
+|highway    |residential    |
+|highway    |service        |
+
+![Golf Cart Yes/Designated][Image - Filter - Golf Cart Yes/Designated]
+
+**golf_cart=designated OR golf_cart=yes**
+
+
+![Highway Residential][Image - Filter - Highway Residential]
+
+**highway=residential**
 
 ## OSM Tagging
 
 ### Parking
+
+![Parking][Image - Parking]
 
 |Key        |Value         | Description |
 |:----------|:-------------|:------------|
@@ -26,6 +45,7 @@ Detect Connection by selecting a Golf Cart Path & press `SHIFT+E`.
 
 ### Golf Club House
 
+![Golf Club House][Image - Golf Club House]
 |Key        |Value         | Description |
 |:----------|:-------------|:------------|
 |building   |yes           |
@@ -34,6 +54,8 @@ Detect Connection by selecting a Golf Cart Path & press `SHIFT+E`.
 
 
 ### Golf Cart Path
+
+![Golf Cart Path][Image - Golf Cart Path]
 
 |Key          |Value       | Description |
 |:------------|:-----------|:------------|
@@ -50,3 +72,10 @@ Detect Connection by selecting a Golf Cart Path & press `SHIFT+E`.
 [no]: http://wiki.openstreetmap.org/wiki/Key:access
 [designated]: http://wiki.openstreetmap.org/wiki/Tag:access=designated
 [segregated]: http://wiki.openstreetmap.org/wiki/Key:segregated
+
+[Image - Golf Cart Path]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Example%20(Golf%20Cart%20Path).png
+[Image - Golf Club House]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Example%20(Golf%20Club%20House).png
+[Image - Parking]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Example%20(Parking).png
+[Image - Filter - Golf Cart Designated]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Filter%20(golf_cart%3Ddesignated).png
+[Image - Filter - Golf Cart Yes/Designated]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Filter%20(golf_cart%3Dyes%20OR%20designated).png
+[Image - Filter - Highway Residential]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Filter%20(highway%3Dresidential).png
