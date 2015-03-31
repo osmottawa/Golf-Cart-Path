@@ -1,10 +1,12 @@
-# The Villages - Golf Cart Path
+The Villages - Golf Cart Path
+=============================
 
-## Tips & Tricks
+Tips & Tricks
+-------------
 
-### To-Do List
+### Install
 
-First of all, clone the GitHub repo to your computer.
+irst of all, clone the GitHub repo to your computer.
 
 Or download the desktop application for [Windows](https://windows.github.com/) & [Mac](https://mac.github.com/)
 
@@ -12,11 +14,13 @@ Or download the desktop application for [Windows](https://windows.github.com/) &
 $ git clone https://github.com/osmottawa/Golf-Cart-Path.git
 ```
 
-With JOSM, open the **To-Do List.osm** within the `OSM` folder. This OSM layer should be used as a reference for the To-Do list.
+### To-Do List
+
+With JOSM, open the [To-Do List.osm] within the `OSM` folder. This OSM layer should be used as a reference for the To-Do list.
 
 ![To-Do List][Image - To-Do List]
 
-When you are finish an area, simply delete the OSM nodes from the To-Do list and save the **To-Do List.osm** and commit the changes to GitHub to share the changes.
+When you are finish an area, simply delete the OSM nodes from the To-Do list and save the [To-Do List.osm] and commit the changes to GitHub to share the changes.
 
 ```bash
 $ git add -A
@@ -39,20 +43,21 @@ Detect Connection by selecting a Golf Cart Path & press `SHIFT+E`.
 
 ![Golf Cart Designated][Image - Filter - Golf Cart Designated]
 
-**golf_cart=designated**
+**golf_cart=[designated]**
 
 You can combine filters together by adding OR in the middle of two expressions. (Ex: `golf_cart=yes OR golf_cart=designated`)
 
 ![Golf Cart Yes/Designated][Image - Filter - Golf Cart Yes/Designated]
 
-**golf_cart=designated OR golf_cart=yes**
+**golf_cart=[designated] OR golf_cart=[yes]**
 
 
 ![Highway Residential][Image - Filter - Highway Residential]
 
 **highway=residential**
 
-## OSM Tagging
+OSM Tagging
+-----------
 
 ### Parking
 
@@ -88,6 +93,7 @@ You can combine filters together by adding OR in the middle of two expressions. 
 ![Golf Cart Path][Image - Golf Cart Path]
 
 
+[To-Do List.osm]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/OSM/To-Do%20List.osm
 [access]: http://wiki.openstreetmap.org/wiki/Key:access
 [yes]: http://wiki.openstreetmap.org/wiki/Key:access
 [no]: http://wiki.openstreetmap.org/wiki/Key:access
