@@ -99,10 +99,10 @@ OSM Tagging
 [no]: http://wiki.openstreetmap.org/wiki/Key:access
 [designated]: http://wiki.openstreetmap.org/wiki/Tag:access=designated
 [segregated]: http://wiki.openstreetmap.org/wiki/Key:segregated
-[Image - Golf Cart Path]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Example%20(Golf%20Cart%20Path).png
-[Image - Golf Club House]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Example%20(Golf%20Club%20House).png
-[Image - Parking]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Example%20(Parking).png
-[Image - Filter - Golf Cart Designated]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Filter%20(golf_cart%3Ddesignated).png
-[Image - Filter - Golf Cart Yes/Designated]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Filter%20(golf_cart%3Dyes%20OR%20designated).png
-[Image - Filter - Highway Residential]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/Filter%20(highway%3Dresidential).png
-[Image - To-Do List]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/Images/To-Do%20List.png
+[Image - Golf Cart Path]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/images/Example%20(Golf%20Cart%20Path).png
+[Image - Golf Club House]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/images/Example%20(Golf%20Club%20House).png
+[Image - Parking]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/images/Example%20(Parking).png
+[Image - Filter - Golf Cart Designated]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/images/Filter%20(golf_cart%3Ddesignated).png
+[Image - Filter - Golf Cart Yes/Designated]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/images/Filter%20(golf_cart%3Dyes%20OR%20designated).png
+[Image - Filter - Highway Residential]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/images/Filter%20(highway%3Dresidential).png
+[Image - To-Do List]: https://raw.githubusercontent.com/osmottawa/Golf-Cart-Path/master/images/To-Do%20List.png
