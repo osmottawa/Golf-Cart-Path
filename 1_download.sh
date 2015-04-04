@@ -1,3 +1,5 @@
 #!/bin/sh
 
-wget http://download.geofabrik.de/north-america/us/florida-latest.osm.pbf
+export OSMFILE="florida-latest.osm.pbf"
+
+wget http://download.geofabrik.de/north-america/us/$OSMFILE -O OSM/$OSMFILE
