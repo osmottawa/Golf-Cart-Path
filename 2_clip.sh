@@ -1,7 +1,7 @@
 #!/bin/sh
 
-export OSMFILE_IN="OSM/florida-latest.osm.pbf"
-export OSMFILE_OUT="OSM/The Villages.osm"
+export OSMFILE_IN="florida-latest.osm.pbf"
+export OSMFILE_OUT="The Villages.osm.pbf"
 
 osmosis \
     --read-pbf file=$OSMFILE_IN \
@@ -11,5 +11,5 @@ osmosis \
         bottom=28.8220054 \
         right=-81.9287816 \
         clipIncompleteEntities=true \
-    --write-xml file=$OSMFILE_OUT
+    --write-pbf file=$OSMFILE_OUT
 
