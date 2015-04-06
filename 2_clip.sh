@@ -1,7 +1,7 @@
 #!/bin/sh
 
 export OSMFILE_IN="florida-latest.osm.pbf"
-export OSMFILE_OUT="The Villages.osm.pbf"
+export OSMFILE_OUT="The-Villages.osm.pbf"
 
 osmosis \
     --read-pbf file=$OSMFILE_IN \
