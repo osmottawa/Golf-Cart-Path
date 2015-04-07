@@ -29,6 +29,8 @@ Remove KML
 
 Also I've removed **golf-cart-paths.kml** with a blank KML file.
 
+We simply just want one master routing file which will be the latest OSM file, not the KML.
+
 ```kml
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
@@ -72,7 +74,8 @@ As a human readable summary:
 |cycleway       | Yes    |
 |service        | Yes    |
 
-```
+
+```sh
 #!/bin/sh
 
 export OSMFILE_IN="florida-latest.osm.pbf"
