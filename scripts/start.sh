@@ -1,19 +1,14 @@
 #!/bin/sh
 
-# Define Variables
 export PORT=8888
-export FOLDER="~/.cache/graphhopper/"
-export BASENAME="The-Villages"
-export OSMFILE_FINAL_PBF=$FOLDER$BASENAME"-Final.osm.pbf"
-export KML_FILE=$FOLDER"golf-cart-paths.kml"
-export GRAPH_CACHE=$FOLDER"graph-cache"
-mkdir $FOLDER -p
+export OSMFILE="/home/ubuntu/.cache/graphhopper/The-Villages-Final.osm.pbf"
+export KMLFILE="/home/ubuntu/.cache/graphhopper/golf-cart-paths.kml"
 
 java -Xmx300m -jar \
     target/golf-routes*jar \
     config=config.properties \
     osmreader.osm=$OSMFILE \
-    graph.location=$GRAPH_CACHE \
-    golf-cart.file=$KML_FILE \
+    graph.location="graph-cache2" \
+    golf-cart.file=$KMLFILE \
     jetty.resourcebase="webapp" \
     jetty.port=$PORT
