@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export PORT=8989
+export PORT=8888
 export OSMFILE="The-Villages-Roads.osm.pbf"
 
 java -Xmx300m -jar \
