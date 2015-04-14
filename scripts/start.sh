@@ -7,6 +7,7 @@ export BASENAME="The-Villages"
 export OSMFILE_FINAL_PBF=$FOLDER$BASENAME"-Final.osm.pbf"
 export KML_FILE=$FOLDER"golf-cart-paths.kml"
 export GRAPH_CACHE=$FOLDER"graph-cache"
+mkdir $FOLDER -p
 
 java -Xmx300m -jar \
     target/golf-routes*jar \
