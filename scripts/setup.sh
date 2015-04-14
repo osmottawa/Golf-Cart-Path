@@ -7,8 +7,9 @@ export DOWNLOAD_OSMFILE_IN=$FOLDER"florida-latest.osm.pbf"
 export OSMFILE_CLIP=$FOLDER$BASENAME"-Clip.osm.pbf"
 export OSMFILE_CLIP_O5M=$FOLDER$BASENAME"-Clip.o5m"
 export OSMFILE_FINAL=$FOLDER$BASENAME"-Final.osm"
-export OSMFILE_FINAL_PBF=$FOLDER$OSMFILE_FINAL".pbf"
+export OSMFILE_FINAL_PBF=$FOLDER$BASENAME"-Final.osm.pbf"
 export KML_FILE=$FOLDER"golf-cart-paths.kml"
+
 
 # Clip to bounding box
 osmosis \
