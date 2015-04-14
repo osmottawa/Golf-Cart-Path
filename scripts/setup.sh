@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Define Variables
-export FOLDER="~/.cache/graphhopper/"
+export FOLDER="/home/ubuntu/.cache/graphhopper/"
 export BASENAME="The-Villages"
 export DOWNLOAD_OSMFILE_IN=$FOLDER"florida-latest.osm.pbf"
 export OSMFILE_CLIP=$FOLDER$BASENAME"-Clip.osm.pbf"
