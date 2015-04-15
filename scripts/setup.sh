@@ -29,7 +29,7 @@ osmconvert $OSMFILE_CLIP \
 # Filter out data, remove un-wanted tags
 osmfilter $OSMFILE_CLIP_O5M \
     --keep="golf_cart=yes =designated highway=path =service =residential =unclassified =cycleway" \
-    --drop="golf_cart=no highway=footway golf=cartpath" \
+    --drop="golf_cart=no highway=footway golf=cartpath =path" \
     -o=$OSMFILE_FINAL
 
 # Final Version is PBF format
