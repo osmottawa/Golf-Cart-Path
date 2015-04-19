@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # Define Variables
-export FOLDER="/home/ubuntu/.cache/graphhopper/"
+export USER_HOME=$(eval echo ~${SUDO_USER})
+export FOLDER=$USER_HOME"/.cache/graphhopper/"
 export BASENAME="The-Villages"
 export DOWNLOAD_OSMFILE_IN=$FOLDER"florida-latest.osm.pbf"
 export OSMFILE_CLIP=$FOLDER$BASENAME"-Clip.osm.pbf"
@@ -9,7 +10,6 @@ export OSMFILE_CLIP_O5M=$FOLDER$BASENAME"-Clip.o5m"
 export OSMFILE_FINAL=$FOLDER$BASENAME"-Final.osm"
 export OSMFILE_FINAL_PBF=$FOLDER$BASENAME"-Final.osm.pbf"
 export KML_FILE=$FOLDER"golf-cart-paths.kml"
-
 
 # Clip to bounding box
 osmosis \
@@ -28,8 +28,17 @@ osmconvert $OSMFILE_CLIP \
 
 # Filter out data, remove un-wanted tags
 osmfilter $OSMFILE_CLIP_O5M \
-    --keep="golf_cart=yes golf_cart=designated highway=path highway=service highway=residential highway=unclassified highway=cycleway" \
-    --drop="golf_cart=no highway=footway golf=cartpath golf=path" \
+    --keep="golf_cart=yes \
+            golf_cart=designated \
+            highway=path \
+            highway=service \
+            highway=residential \
+            highway=unclassified \
+            highway=cycleway" \
+    --drop="highway=footway \
+            golf_cart=no \
+            golf=cartpath \
+            golf=path" \
     -o=$OSMFILE_FINAL
 
 # Final Version is PBF format
