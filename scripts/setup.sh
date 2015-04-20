@@ -47,7 +47,7 @@ osmosis \
     --write-pbf file=$OSMFILE_FINAL_PBF
 
 # Remove Extra files
-rm $OSMFILE_CLIP
+# rm $OSMFILE_CLIP
 rm $OSMFILE_CLIP_O5M
 rm $OSMFILE_FINAL
 

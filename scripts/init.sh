@@ -7,3 +7,6 @@ sudo apt-get install openjdk-7-jre
 sudo apt-get install openjdk-7-jdk
 sudo apt-get install osmosis
 sudo apt-get install osmctools
+
+./graphhopper.sh clean
+./graphhopper.sh build

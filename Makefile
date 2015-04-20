@@ -9,3 +9,8 @@ setup:
 
 start:
 	./scripts/start.sh
+
+full:
+	./scripts/download.sh
+	./scripts/setup.sh
+	./scripts/start.sh
