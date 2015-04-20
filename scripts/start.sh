@@ -13,4 +13,4 @@ kill -9 $PID
 
 # Run Graphhopper
 rm -r ../OSM/The-Villages-Clip.osm-gh
-./graphhopper.sh web ../OSM/The-Villages-Clip.osm.pbf
+setsid ./graphhopper.sh web ../OSM/The-Villages-Clip.osm.pbf
