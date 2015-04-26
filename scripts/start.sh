@@ -8,7 +8,7 @@ cd "./graphhopper"
 
 # Kill any existing Graphhopper instance
 PID=$(ps aux | grep golf-routes | grep -v grep | awk '{print $2}')
-kill -9 $PID
+pkill java
 
 # Run Graphhopper
 rm -r $GRAPH_CACHE
