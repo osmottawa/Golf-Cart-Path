@@ -2,7 +2,7 @@
 
 export USER_HOME=$(eval echo ~${SUDO_USER})
 export JETTY_PORT=8888
-export OSMFILE=$USER_HOME"/.cache/graphhopper/The-Villages.osm.pbf"
+export OSMFILE=$USER_HOME"/.cache/graphhopper/florida-latest.osm.pbf"
 export GRAPH_CACHE=$USER_HOME"/.cache/graphhopper/graph-cache"
 cd "./graphhopper"
 
