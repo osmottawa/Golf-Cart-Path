@@ -16,3 +16,6 @@ osmosis \
         right=-81.821970 \
         clipIncompleteEntities=true \
     --write-pbf file=$OSMFILE
+
+# Remove Graphhopper Cache
+rm -r $FOLDER"The-Villages.osm-gh"
