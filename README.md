@@ -13,6 +13,10 @@ http://52.5.34.35:8888/route?point=28.938158,-82.007446&point=28.915922,-81.9998
 - sourcelat, sourcelng = **(point=28.938158,-82.007446)**
 - destlat, destlng = **(point=28.915922,-81.999893)**
 
+API Testing
+-----------
+- [Test 1 - Path near Golf Course](http://52.5.34.35:8888/?point=28.939026%2C-81.964225&point=28.936848%2C-81.958013&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+
 Build the API
 -------------
 
