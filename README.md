@@ -10,8 +10,8 @@ Here's an example with TheVillages routing API.
 
 http://52.5.34.35:8888/route?point=28.938158,-82.007446&point=28.915922,-81.999893&vehicle=bike&locale=en-US&type=json&points_encoded=false
 
-sourcelat, sourcelng = **(point=28.938158,-82.007446)**
-destlat, destlng = **(point=28.915922,-81.999893)**
+- sourcelat, sourcelng = **(point=28.938158,-82.007446)**
+- destlat, destlng = **(point=28.915922,-81.999893)**
 
 Build the API
 -------------
