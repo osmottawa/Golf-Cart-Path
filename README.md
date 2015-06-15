@@ -30,6 +30,8 @@ API Testing
 - [Test 10 - Going to Bank](http://52.5.34.35:8888/?point=28.937162%2C-81.940295&point=28.937895%2C-81.939849&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 11 - Road behind building](http://52.5.34.35:8888/?point=28.937914%2C-81.941764&point=28.938651%2C-81.942827&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 12 - Shortcut threw Golf Course](http://52.5.34.35:8888/?point=28.931125%2C-81.917726&point=28.931266%2C-81.922147&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 13 - Add parking aisles](http://52.5.34.35:8888/?point=28.937022%2C-81.935778&point=28.937172%2C-81.933728&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+
 
 Build the API
 -------------
