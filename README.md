@@ -34,7 +34,7 @@ API Testing
 - [Test 14 - Jeffrey Drive allowed?](http://52.5.34.35:8888/?point=28.937857%2C-81.933374&point=28.938463%2C-81.933342&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 15 - Shortcut threw Golfcourse parking](http://52.5.34.35:8888/?point=28.945209%2C-81.939447&point=28.946124%2C-81.940702&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 16 - Zip threw parking lot](http://52.5.34.35:8888/?point=28.953513%2C-81.941716&point=28.954104%2C-81.941389&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-
+- [Test 17 - Country Club parking](http://52.5.34.35:8888/?point=28.950964%2C-81.946437&point=28.95149%2C-81.946657&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
 
 Build the API
