@@ -28,6 +28,7 @@ API Testing
 - [Test 8 - Bichara Boulevard allowed?](http://52.5.34.35:8888/?point=28.938975%2C-81.945176&point=28.936763%2C-81.942354&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 9 - Shay Boulevard allowed?](http://52.5.34.35:8888/?point=28.937979%2C-81.939796&point=28.936947%2C-81.94412&point=28.93859%2C-81.939774&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 10 - Going to Bank](http://52.5.34.35:8888/?point=28.937162%2C-81.940295&point=28.936947%2C-81.94412&point=28.937895%2C-81.939849&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 11 - Road behind building](http://52.5.34.35:8888/?point=28.937914%2C-81.941764&point=28.936947%2C-81.94412&point=28.938651%2C-81.942827&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
 Build the API
 -------------
