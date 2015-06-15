@@ -18,10 +18,10 @@ API Testing
 
 [OSM Tasking Manager](http://tasks.osmcanada.ca/project/12)
 
-- [Test 1 - Path behind Golf Course](http://52.5.34.35:8888/?point=28.939026%2C-81.964225&point=28.936848%2C-81.958013&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 2 - Parking lot](http://52.5.34.35:8888/?point=28.935562%2C-81.971344&point=28.934763%2C-81.971709&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 3 - Add more Parking aisle](http://52.5.34.35:8888/?point=28.843283%2C-82.021512&point=28.845397%2C-82.023861&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 4 - Crossing over Golf Course](http://52.5.34.35:8888/?point=28.938885%2C-81.957643&point=28.93751%2C-81.958131&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 1 (FIXED) - Path behind Golf Course](http://52.5.34.35:8888/?point=28.939026%2C-81.964225&point=28.936848%2C-81.958013&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 2 (FIXED) - Parking lot](http://52.5.34.35:8888/?point=28.935562%2C-81.971344&point=28.934763%2C-81.971709&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 3 (FIXED) - Add more Parking aisle](http://52.5.34.35:8888/?point=28.843283%2C-82.021512&point=28.845397%2C-82.023861&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 4 (FIXED) - Crossing over Golf Course](http://52.5.34.35:8888/?point=28.938885%2C-81.957643&point=28.93751%2C-81.958131&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 5 - Decorative Shortcut Path](http://52.5.34.35:8888/?point=28.939176%2C-81.952541&point=28.93989%2C-81.951646&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 6 - Add Parking lot aisles](http://52.5.34.35:8888/?point=28.936524%2C-81.94435&point=28.937407%2C-81.943454&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 7 - Store to Store (Parking)](http://52.5.34.35:8888/?point=28.939702%2C-81.945246&point=28.938561%2C-81.943932&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
@@ -43,6 +43,7 @@ API Testing
 - [Test 23 - Really rich farm house](http://52.5.34.35:8888/?point=28.956559%2C-81.957107&point=28.959394%2C-81.953239&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 24 - Back road shortcut](http://52.5.34.35:8888/?point=28.973845%2C-81.96091&point=28.973986%2C-81.962396&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 25 - Shortcut threw golf course](http://52.5.34.35:8888/?point=28.969349%2C-81.955422&point=28.968889%2C-81.953706&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 26 - Golf Course shortcut](http://52.5.34.35:8888/?point=28.944988%2C-81.963834&point=28.946425%2C-81.965169&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
 Build the API
 -------------
