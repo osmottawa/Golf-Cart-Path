@@ -37,7 +37,8 @@ API Testing
 - [Test 17 - Country Club parking](http://52.5.34.35:8888/?point=28.950964%2C-81.946437&point=28.95149%2C-81.946657&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 18 - How to get to mall?](http://52.5.34.35:8888/?point=28.950743%2C-81.954677&point=28.952311%2C-81.956152&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 19 - Shortcut behind building](http://52.5.34.35:8888/?point=28.94811%2C-81.949591&point=28.948232%2C-81.951082&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-
+- [Test 20 - Lets go in the Golf Club](http://52.5.34.35:8888/?point=28.96543%2C-81.960513&point=28.966735%2C-81.96113&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 21 - Missing residential Road](http://52.5.34.35:8888/?point=28.960995%2C-81.960792&point=28.960638%2C-81.962122&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
 Build the API
 -------------
