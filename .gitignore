@@ -7,6 +7,12 @@ pid.file
 # C extensions
 *.so
 
+# OSM files
+*.osm
+
+# Background processes
+nohup.out
+
 # Distribution / packaging
 .Python
 env/
