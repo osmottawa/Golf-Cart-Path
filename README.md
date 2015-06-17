@@ -55,6 +55,8 @@ API Testing
 - [Test 34 - Visiting Country Golf club](http://52.5.34.35:8888/?point=28.92843%2C-82.008294&point=28.927688%2C-82.0078&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 35 - Mini Golf club house](http://52.5.34.35:8888/?point=28.94722%2C-81.992465&point=28.947481%2C-81.992866&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 36 - Construction zone](http://52.5.34.35:8888/?point=28.929482%2C-81.996524&point=28.926665%2C-81.99867&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 37 - Parking lot of building](http://52.5.34.35:8888/?point=28.933407%2C-82.001127&point=28.933782%2C-82.0008&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+
 
 Build the API
 -------------
