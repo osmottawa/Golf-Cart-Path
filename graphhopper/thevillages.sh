@@ -3,9 +3,10 @@
 HOME=$(dirname "$0")
 ACTION=$1
 FILE=$2
-JETTY_PORT=8888
 OSMFILE="The-Villages.osm.pbf"
 OSMFILE_DOWNLOAD="florida-latest.osm.pbf"
+
+export JETTY_PORT=8888
 
 function start {
     pkill java
@@ -23,7 +24,7 @@ function printUsage {
 
 function update {
     # Download latest GeoFabrik
-    # wget http://download.geofabrik.de/north-america/us/$OSMFILE_DOWNLOAD
+    wget http://download.geofabrik.de/north-america/us/$OSMFILE_DOWNLOAD -O $OSMFILE
     
     # Clip to bounding box
     osmosis \
