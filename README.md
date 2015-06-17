@@ -44,6 +44,8 @@ API Testing
 - [Test 24 (FIXED) - Back road shortcut](http://52.5.34.35:8888/?point=28.973845%2C-81.96091&point=28.973986%2C-81.962396&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 25 (FIXED) - Shortcut threw golf course](http://52.5.34.35:8888/?point=28.969349%2C-81.955422&point=28.968889%2C-81.953706&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 26 (FIXED) - Golf Course shortcut](http://52.5.34.35:8888/?point=28.944988%2C-81.963834&point=28.946425%2C-81.965169&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 27 - Club house parking](http://52.5.34.35:8888/?point=28.960126%2C-81.982588&point=28.959155%2C-81.982845&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+
 
 Build the API
 -------------
