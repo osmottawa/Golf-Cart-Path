@@ -52,6 +52,10 @@ API Testing
 - [Test 32 - Health/Nature Trail](http://52.5.34.35:8888/?point=28.965552%2C-82.000666&point=28.963168%2C-81.997919&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 33 - Golf club house](http://52.5.34.35:8888/?point=28.971278%2C-82.029376&point=28.970306%2C-82.029478&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
+- [Test 34 - Visiting Country Golf club](http://52.5.34.35:8888/?point=28.92843%2C-82.008294&point=28.927688%2C-82.0078&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 35 - Mini Golf club house](http://52.5.34.35:8888/?point=28.94722%2C-81.992465&point=28.947481%2C-81.992866&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+
+
 Build the API
 -------------
 
