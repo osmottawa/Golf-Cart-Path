@@ -47,6 +47,8 @@ API Testing
 - [Test 27 - Club house parking](http://52.5.34.35:8888/?point=28.960258%2C-81.982679&point=28.959267%2C-81.982893&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 28 - Offroad trails](http://52.5.34.35:8888/?point=28.95532%2C-81.987276&point=28.963825%2C-81.995559&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 29 - Construction area](http://52.5.34.35:8888/?point=28.971325%2C-81.96761&point=28.974112%2C-81.968082&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 30 - Turning left on residential](http://52.5.34.35:8888/?point=28.964989%2C-81.987426&point=28.964219%2C-81.987614&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+
 
 Build the API
 -------------
