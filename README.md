@@ -49,7 +49,7 @@ API Testing
 - [Test 29 - Construction area](http://52.5.34.35:8888/?point=28.971325%2C-81.96761&point=28.974112%2C-81.968082&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 30 - Turning left on residential](http://52.5.34.35:8888/?point=28.964989%2C-81.987426&point=28.964219%2C-81.987614&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 31 - Golf club shortcut](http://52.5.34.35:8888/?point=28.972385%2C-82.013422&point=28.972812%2C-82.013036&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-
+- [Test 32 - Health/Nature Trail](http://52.5.34.35:8888/?point=28.965552%2C-82.000666&point=28.963168%2C-81.997919&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
 Build the API
 -------------
