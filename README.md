@@ -56,7 +56,11 @@ API Testing
 - [Test 35 (FIXED) - Mini Golf club house](http://52.5.34.35:8888/?point=28.94722%2C-81.992465&point=28.947481%2C-81.992866&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 36 - Construction zone](http://52.5.34.35:8888/?point=28.929482%2C-81.996524&point=28.926665%2C-81.99867&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 37 (FIXED) - Parking lot of building](http://52.5.34.35:8888/?point=28.933407%2C-82.001127&point=28.933782%2C-82.0008&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-
+- [Test 38 - New Building](http://52.5.34.35:8888/?point=28.926444%2C-82.011909&point=28.926759%2C-82.012317&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 39 - Leaving the Parking lot](http://52.5.34.35:8888/?point=28.925796%2C-82.002452&point=28.925505%2C-82.002377&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 40 - Parking of building](http://52.5.34.35:8888/?point=28.92859%2C-82.027788&point=28.928801%2C-82.027043&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 41 - Entire Campus](http://52.5.34.35:8888/?point=28.925233%2C-82.028738&point=28.925176%2C-82.027386&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 42 - Can't access Facilities](http://52.5.34.35:8888/?point=28.929688%2C-82.028126&point=28.931491%2C-82.028298&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
 Build the API
 -------------
