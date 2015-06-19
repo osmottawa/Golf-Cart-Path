@@ -24,8 +24,8 @@ API Testing
 - [Test 4 (FIXED) - Crossing over Golf Course](http://52.5.34.35:8888/?point=28.938885%2C-81.957643&point=28.93751%2C-81.958131&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 5 (FIXED) - Decorative Shortcut Path](http://52.5.34.35:8888/?point=28.939176%2C-81.952541&point=28.93989%2C-81.951646&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 6 (FIXED) - Add Parking lot aisles](http://52.5.34.35:8888/?point=28.936524%2C-81.94435&point=28.937407%2C-81.943454&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 7 - Store to Store (Parking)](http://52.5.34.35:8888/?point=28.939702%2C-81.945246&point=28.938561%2C-81.943932&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 8 - Bichara Boulevard allowed?](http://52.5.34.35:8888/?point=28.938975%2C-81.945176&point=28.936763%2C-81.942354&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 7 (FIXED) - Store to Store (Parking)](http://52.5.34.35:8888/?point=28.939702%2C-81.945246&point=28.938561%2C-81.943932&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 8 (FIXED) - Bichara Boulevard allowed?](http://52.5.34.35:8888/?point=28.938975%2C-81.945176&point=28.936763%2C-81.942354&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 9 (FIXED) - Shay Boulevard allowed?](http://52.5.34.35:8888/?point=28.937979%2C-81.939796&point=28.93859%2C-81.939774&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 10 (FIXED) - Going to Bank](http://52.5.34.35:8888/?point=28.937162%2C-81.940295&point=28.937895%2C-81.939849&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 11 (FIXED) - Road behind building](http://52.5.34.35:8888/?point=28.937914%2C-81.941764&point=28.938651%2C-81.942827&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
@@ -44,18 +44,18 @@ API Testing
 - [Test 24 (FIXED) - Back road shortcut](http://52.5.34.35:8888/?point=28.973845%2C-81.96091&point=28.973986%2C-81.962396&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 25 (FIXED) - Shortcut threw golf course](http://52.5.34.35:8888/?point=28.969349%2C-81.955422&point=28.968889%2C-81.953706&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 26 (FIXED) - Golf Course shortcut](http://52.5.34.35:8888/?point=28.944988%2C-81.963834&point=28.946425%2C-81.965169&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 27 - Club house parking](http://52.5.34.35:8888/?point=28.960258%2C-81.982679&point=28.959267%2C-81.982893&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 28 - Offroad trails](http://52.5.34.35:8888/?point=28.95532%2C-81.987276&point=28.963825%2C-81.995559&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 27 (FIXED) - Club house parking](http://52.5.34.35:8888/?point=28.960258%2C-81.982679&point=28.959267%2C-81.982893&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 28 (FIXED) - Offroad trails](http://52.5.34.35:8888/?point=28.95532%2C-81.987276&point=28.963825%2C-81.995559&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 29 - Construction area](http://52.5.34.35:8888/?point=28.971325%2C-81.96761&point=28.974112%2C-81.968082&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 30 - Turning left on residential](http://52.5.34.35:8888/?point=28.964989%2C-81.987426&point=28.964219%2C-81.987614&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 31 - Golf club shortcut](http://52.5.34.35:8888/?point=28.972385%2C-82.013422&point=28.972812%2C-82.013036&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 32 - Health/Nature Trail](http://52.5.34.35:8888/?point=28.965552%2C-82.000666&point=28.963168%2C-81.997919&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 33 - Golf club house](http://52.5.34.35:8888/?point=28.971278%2C-82.029376&point=28.970306%2C-82.029478&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 30 (FIXED) - Turning left on residential](http://52.5.34.35:8888/?point=28.964989%2C-81.987426&point=28.964219%2C-81.987614&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 31 (FIXED) - Golf club shortcut](http://52.5.34.35:8888/?point=28.972385%2C-82.013422&point=28.972812%2C-82.013036&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 32 (FIXED) - Health/Nature Trail](http://52.5.34.35:8888/?point=28.965552%2C-82.000666&point=28.963168%2C-81.997919&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 33 (FIXED) - Golf club house](http://52.5.34.35:8888/?point=28.971278%2C-82.029376&point=28.970306%2C-82.029478&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
-- [Test 34 - Visiting Country Golf club](http://52.5.34.35:8888/?point=28.92843%2C-82.008294&point=28.927688%2C-82.0078&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 35 - Mini Golf club house](http://52.5.34.35:8888/?point=28.94722%2C-81.992465&point=28.947481%2C-81.992866&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 34 (FIXED) - Visiting Country Golf club](http://52.5.34.35:8888/?point=28.92843%2C-82.008294&point=28.927688%2C-82.0078&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 35 (FIXED) - Mini Golf club house](http://52.5.34.35:8888/?point=28.94722%2C-81.992465&point=28.947481%2C-81.992866&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 36 - Construction zone](http://52.5.34.35:8888/?point=28.929482%2C-81.996524&point=28.926665%2C-81.99867&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 37 - Parking lot of building](http://52.5.34.35:8888/?point=28.933407%2C-82.001127&point=28.933782%2C-82.0008&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 37 (FIXED) - Parking lot of building](http://52.5.34.35:8888/?point=28.933407%2C-82.001127&point=28.933782%2C-82.0008&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
 
 Build the API
@@ -71,6 +71,7 @@ You would simply do the following Makefile commands.
 $ git clone https://github.com/osmottawa/Golf-Cart-Path
 $ cd Golf-Cart-Path/graphhopper
 $ ./thevillages.sh init
+$ ./thevillages.sh update
 $ ./thevillages.sh start
 ```
 
