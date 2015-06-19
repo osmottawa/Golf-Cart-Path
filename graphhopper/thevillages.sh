@@ -5,8 +5,12 @@ ACTION=$1
 FILE=$2
 OSMFILE="The-Villages.osm.pbf"
 OSMFILE_DOWNLOAD="florida-latest.osm.pbf"
-
 export JETTY_PORT=8888
+
+# Save PID File
+#./thevillages.sh &
+#echo $! > thevillages.pid
+
 
 function start {
     pkill java
