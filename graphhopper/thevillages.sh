@@ -28,7 +28,7 @@ function printUsage {
 
 function update {
     # Download latest GeoFabrik
-    wget http://download.geofabrik.de/north-america/us/$OSMFILE_DOWNLOAD -O $OSMFILE
+    wget http://download.geofabrik.de/north-america/us/$OSMFILE_DOWNLOAD -O $OSMFILE_DOWNLOAD
     
     # Clip to bounding box
     osmosis \
@@ -42,7 +42,7 @@ function update {
         --write-pbf file=$OSMFILE
 
     # Remove Graphhopper Cache
-    rm -r ${FILE%.pbf}-gh
+    rm -r ${OSMFILE%.pbf}-gh
 
     # Import for faster import
     ./graphhopper.sh import $OSMFILE
