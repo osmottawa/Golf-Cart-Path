@@ -3,8 +3,7 @@
 HOME=$(dirname "$0")
 ACTION=$1
 FILE=$2
-OSMFILE="The-Villages.osm.pbf"
-OSMFILE_DOWNLOAD="florida-latest.osm.pbf"
+OSMFILE="florida-latest.osm.pbf"
 export JETTY_PORT=8888
 
 # Save PID File
@@ -28,18 +27,7 @@ function printUsage {
 
 function update {
     # Download latest GeoFabrik
-    wget http://download.geofabrik.de/north-america/us/$OSMFILE_DOWNLOAD -O $OSMFILE_DOWNLOAD
-    
-    # Clip to bounding box
-    osmosis \
-        --read-pbf file=$OSMFILE_DOWNLOAD \
-        --bounding-box \
-            top=29.040175 \
-            left=-82.174905 \
-            bottom=28.761252 \
-            right=-81.821970 \
-            clipIncompleteEntities=true \
-        --write-pbf file=$OSMFILE
+    wget http://download.geofabrik.de/north-america/us/$OSMFILE -O $OSMFILE
 
     # Remove Graphhopper Cache
     rm -r ${OSMFILE%.pbf}-gh
@@ -70,7 +58,6 @@ elif [ "$ACTION" = "start" ]; then
 
 elif [ "$ACTION" = "update" ]; then
     update
-    start
 
 elif [ "$ACTION" = "auto" ]; then
     while true
