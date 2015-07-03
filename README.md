@@ -68,6 +68,7 @@ API Testing
 - [Test 47 - Country Road 101 - ALLOWED?](http://52.5.34.35:8888/?point=28.932627%2C-82.018851&point=28.936843%2C-82.020385&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 48 (FIXED) - Going to church on golf cart?](http://52.5.34.35:8888/?point=28.983207%2C-82.035459&point=28.984802%2C-82.034118&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 49 (FIXED) - Going to church 2](http://52.5.34.35:8888/?point=28.978974%2C-82.024677&point=28.980504%2C-82.026104&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 50 - Can't cross the street](http://52.5.34.35:8888/?point=28.928148%2C-82.01722&point=28.928092%2C-82.015107&vehicle=bike&locale=en-US&layer=Lyrk)
 
 Build the API
 -------------
