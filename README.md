@@ -68,7 +68,12 @@ API Testing
 - [Test 47 - Country Road 101 - ALLOWED?](http://52.5.34.35:8888/?point=28.932627%2C-82.018851&point=28.936843%2C-82.020385&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 48 (FIXED) - Going to church on golf cart?](http://52.5.34.35:8888/?point=28.983207%2C-82.035459&point=28.984802%2C-82.034118&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 49 (FIXED) - Going to church 2](http://52.5.34.35:8888/?point=28.978974%2C-82.024677&point=28.980504%2C-82.026104&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 50 - Can't cross the street](http://52.5.34.35:8888/?point=28.928148%2C-82.01722&point=28.928092%2C-82.015107&vehicle=bike&locale=en-US&layer=Lyrk)
+- [Test 50 - Can't cross the street (Eddie)](http://52.5.34.35:8888/?point=28.928148%2C-82.01722&point=28.928092%2C-82.015107&vehicle=bike&locale=en-US&layer=Lyrk)
+- [Test 51 - New Parking lot/Mall](http://52.5.34.35:8888/?point=28.954268%2C-81.954961&point=28.95332%2C-81.956173&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 52 - Offroad path does not exist](http://52.5.34.35:8888/?point=28.953039%2C-81.95613&point=28.955968%2C-81.958174&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 53 - New Parking lot/Mall](http://52.5.34.35:8888/?point=28.95286%2C-81.966097&point=28.951199%2C-81.96533&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 54 - Allowed to cross this highway? (Need Eddie approval)](http://52.5.34.35:8888/?point=28.956888%2C-81.963447&point=28.957864%2C-81.962128&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+
 
 Build the API
 -------------
