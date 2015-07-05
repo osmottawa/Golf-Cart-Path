@@ -112,3 +112,14 @@ You should be able to log in using this Private Key.
 $ sudo chmod 700 TheVillages.pem
 $ ssh -i TheVillages.pem ubuntu@52.5.34.35
 ```
+
+Update OSM Data
+---------------
+
+To update at the latest minute the OSM dataset, here is the following commands.
+
+```bash
+$ osmupdate florida-latest.osm.pbf florida-update.osm.pbf
+$ osmosis --read-pbf file="florida-update.osm.pbf" --write-pbf file="florida-latest.osm.pbf"
+$ ./graphhopper import florida-latest.osm.pbf
+```
