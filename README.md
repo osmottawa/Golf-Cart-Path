@@ -72,7 +72,7 @@ API Testing
 - [Test 52 (FIXED) - Offroad path does not exist](http://52.5.34.35:8888/?point=28.953039%2C-81.95613&point=28.955968%2C-81.958174&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 53 (FIXED) - New Parking lot/Mall](http://52.5.34.35:8888/?point=28.95286%2C-81.966097&point=28.951199%2C-81.96533&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 54 - Allowed to cross this highway? (Need Eddie approval)](http://52.5.34.35:8888/?point=28.956888%2C-81.963447&point=28.957864%2C-81.962128&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-
+- [Test 55 (FIXED) - Going to Paradise Dr (Found by Eddie)](http://52.5.34.35:8888/?point=28.942909%2C-81.948277&point=28.946871%2C-81.948996&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
 Build the API
 -------------
