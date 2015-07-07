@@ -27,13 +27,16 @@ function printUsage {
 
 function update {
     # Download latest GeoFabrik
-    wget http://download.geofabrik.de/north-america/us/$OSMFILE -O $OSMFILE
+    # wget http://download.geofabrik.de/north-america/us/$OSMFILE -O $OSMFILE
+    osmupdate "florida-latest.osm.pbf" "florida-update.osm.pbf" -B="florida.poly" -v --keep-tempfiles
+    osmosis --read-pbf file="florida-update.osm.pbf" --write-pbf="florida-latest.osm.pbf"
+    rm "florida-update.osm.pbf"
 
     # Remove Graphhopper Cache
-    rm -r ${OSMFILE%.pbf}-gh
+    rm -r "florida-latest.osm-gh"
 
     # Import for faster import
-    ./graphhopper.sh import $OSMFILE
+    ./graphhopper.sh import "florida-latest.osm.pbf"
 }
 
 if [ "$ACTION" = "" ]; then
