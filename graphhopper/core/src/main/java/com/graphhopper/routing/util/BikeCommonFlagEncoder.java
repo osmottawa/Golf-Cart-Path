@@ -109,14 +109,14 @@ public class BikeCommonFlagEncoder extends AbstractFlagEncoder
         roadValues.add("service");
         roadValues.add("unclassified");
         roadValues.add("residential");
-        //roadValues.add("trunk");
-        //roadValues.add("trunk_link");
-        //roadValues.add("primary");
-        //roadValues.add("primary_link");
-        //roadValues.add("secondary");
-        //roadValues.add("secondary_link");
-        //roadValues.add("tertiary");
-        //roadValues.add("tertiary_link");
+        roadValues.add("trunk");
+        roadValues.add("trunk_link");
+        roadValues.add("primary");
+        roadValues.add("primary_link");
+        roadValues.add("secondary");
+        roadValues.add("secondary_link");
+        roadValues.add("tertiary");
+        roadValues.add("tertiary_link");
         
         maxPossibleSpeed = 30;
 
