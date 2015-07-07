@@ -109,14 +109,14 @@ public class BikeCommonFlagEncoder extends AbstractFlagEncoder
         roadValues.add("service");
         roadValues.add("unclassified");
         roadValues.add("residential");
-        roadValues.add("trunk");
-        roadValues.add("trunk_link");
-        roadValues.add("primary");
-        roadValues.add("primary_link");
-        roadValues.add("secondary");
-        roadValues.add("secondary_link");
-        roadValues.add("tertiary");
-        roadValues.add("tertiary_link");
+        //roadValues.add("trunk");
+        //roadValues.add("trunk_link");
+        //roadValues.add("primary");
+        //roadValues.add("primary_link");
+        //roadValues.add("secondary");
+        //roadValues.add("secondary_link");
+        //roadValues.add("tertiary");
+        //roadValues.add("tertiary_link");
         
         maxPossibleSpeed = 30;
 
@@ -180,6 +180,11 @@ public class BikeCommonFlagEncoder extends AbstractFlagEncoder
         // special case see tests and #191
         setHighwaySpeed("motorway", 18);
         setHighwaySpeed("motorway_link", 18);
+        avoidHighwayTags.add("footway");
+        avoidHighwayTags.add("primary");
+        avoidHighwayTags.add("primary_link");
+        avoidHighwayTags.add("secondary");
+        avoidHighwayTags.add("secondary_link");
         avoidHighwayTags.add("motorway");
         avoidHighwayTags.add("motorway_link");
 
