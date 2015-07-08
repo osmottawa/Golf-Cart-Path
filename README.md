@@ -74,6 +74,7 @@ API Testing
 - [Test 54 - Allowed to cross this highway? (Need Eddie approval)](http://52.5.34.35:8888/?point=28.956888%2C-81.963447&point=28.957864%2C-81.962128&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 55 (FIXED) - Going to Paradise Dr (Found by Eddie)](http://52.5.34.35:8888/?point=28.942909%2C-81.948277&point=28.946871%2C-81.948996&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 56 - Not allowed to cross highway](http://52.5.34.35:8888/?point=28.9943%2C-81.995548&point=28.99338%2C-81.997265&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 57 - Not allowed to cross](http://52.5.34.35:8888/?point=29.006714%2C-82.00367&point=29.006189%2C-82.008219&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
 Build the API
 -------------
