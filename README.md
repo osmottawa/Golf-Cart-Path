@@ -87,6 +87,8 @@ API Testing
 - [Test 57 (FIXED) - Not allowed to cross highway](http://52.5.34.35:8888/?point=29.006714%2C-82.00367&point=29.006189%2C-82.008219&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 58 (FIXED) - Mosrse Blvd allowed (mentioned by Eddie) ](http://52.5.34.35:8888/?point=28.912334%2C-81.969109&point=28.929427%2C-81.945632&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 59 (FIXED) - New Parking lot](http://52.5.34.35:8888/?point=28.863712%2C-82.016351&point=28.865041%2C-82.016416&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 60 - Tunnel to Brownwood Blvd](http://52.5.34.35:8888/?point=28.845773%2C-82.02722&point=28.844688%2C-82.024763&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 61 (FIXED) - New Parking lot](http://52.5.34.35:8888/?point=28.8444%2C-82.028068&point=28.84605%2C-82.027944&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
 Build the API
 -------------
