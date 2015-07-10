@@ -75,7 +75,7 @@ API Testing
 - [Test 55 (FIXED) - Going to Paradise Dr (Found by Eddie)](http://52.5.34.35:8888/?point=28.942909%2C-81.948277&point=28.946871%2C-81.948996&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 56 (FIXED) - Not allowed to cross highway](http://52.5.34.35:8888/?point=28.9943%2C-81.995548&point=28.99338%2C-81.997265&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 57 (FIXED) - Not allowed to cross highway](http://52.5.34.35:8888/?point=29.006714%2C-82.00367&point=29.006189%2C-82.008219&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 58 (FIXED) - Mosrse Blvd allowed](http://52.5.34.35:8888/?point=28.912334%2C-81.969109&point=28.929427%2C-81.945632&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 58 (FIXED) - Mosrse Blvd allowed (mentioned by Eddie) ](http://52.5.34.35:8888/?point=28.912334%2C-81.969109&point=28.929427%2C-81.945632&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 59 (FIXED) - New Parking lot](http://52.5.34.35:8888/?point=28.863712%2C-82.016351&point=28.865041%2C-82.016416&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
 Build the API
