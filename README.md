@@ -64,17 +64,18 @@ API Testing
 - [Test 44 (FIXED) - Lots of One way!](http://52.5.34.35:8888/?point=28.925312%2C-82.028614&point=28.923082%2C-82.02649&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 45 (FIXED) - Pass threw parking lot](http://52.5.34.35:8888/?point=28.929904%2C-82.017778&point=28.92905%2C-82.017859&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 46 (FIXED) - Golf club trail connecting](http://52.5.34.35:8888/?point=28.952597%2C-82.011244&point=28.95325%2C-82.015697&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 47 - Country Road 101 (Need Eddie's opinion ALLOWED?)](http://52.5.34.35:8888/?point=28.932627%2C-82.018851&point=28.936843%2C-82.020385&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 47 (FIXED) - Country Road 101 not allowed](http://52.5.34.35:8888/?point=28.931698%2C-82.01633&point=28.937707%2C-82.016308&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 48 (FIXED) - Going to church on golf cart?](http://52.5.34.35:8888/?point=28.983207%2C-82.035459&point=28.984802%2C-82.034118&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 49 (FIXED) - Going to church 2](http://52.5.34.35:8888/?point=28.978974%2C-82.024677&point=28.980504%2C-82.026104&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 50 (FIXED) - Can't cross the street (Found by Eddie)](http://52.5.34.35:8888/?point=28.928148%2C-82.01722&point=28.928092%2C-82.015107&vehicle=bike&locale=en-US&layer=Lyrk)
 - [Test 51 (FIXED) - New Parking lot/Mall Only on Bing/Google](http://52.5.34.35:8888/?point=28.954268%2C-81.954961&point=28.95332%2C-81.956173&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 52 (FIXED) - Offroad path does not exist](http://52.5.34.35:8888/?point=28.953039%2C-81.95613&point=28.955968%2C-81.958174&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 53 (FIXED) - New Parking lot/Mall](http://52.5.34.35:8888/?point=28.95286%2C-81.966097&point=28.951199%2C-81.96533&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 54 - Allowed to cross this highway? (Need Eddie approval)](http://52.5.34.35:8888/?point=28.956888%2C-81.963447&point=28.957864%2C-81.962128&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 54 (FIXED) - Not allowed to cross this highway](http://52.5.34.35:8888/?point=28.956888%2C-81.963447&point=28.957864%2C-81.962128&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 55 (FIXED) - Going to Paradise Dr (Found by Eddie)](http://52.5.34.35:8888/?point=28.942909%2C-81.948277&point=28.946871%2C-81.948996&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 56 - Not allowed to cross highway](http://52.5.34.35:8888/?point=28.9943%2C-81.995548&point=28.99338%2C-81.997265&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
-- [Test 57 - Not allowed to cross](http://52.5.34.35:8888/?point=29.006714%2C-82.00367&point=29.006189%2C-82.008219&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 56 (FIXED) - Not allowed to cross highway](http://52.5.34.35:8888/?point=28.9943%2C-81.995548&point=28.99338%2C-81.997265&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 57 (FIXED) - Not allowed to cross highway](http://52.5.34.35:8888/?point=29.006714%2C-82.00367&point=29.006189%2C-82.008219&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 58 (FIXED) - Mosrse Blvd allowed](http://52.5.34.35:8888/?point=28.912334%2C-81.969109&point=28.929427%2C-81.945632&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 
 Build the API
 -------------
