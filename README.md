@@ -89,6 +89,8 @@ API Testing
 - [Test 59 (FIXED) - New Parking lot](http://52.5.34.35:8888/?point=28.863712%2C-82.016351&point=28.865041%2C-82.016416&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 60 - Tunnel to Brownwood Blvd](http://52.5.34.35:8888/?point=28.845773%2C-82.02722&point=28.844688%2C-82.024763&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
 - [Test 61 (FIXED) - New Parking lot](http://52.5.34.35:8888/?point=28.8444%2C-82.028068&point=28.84605%2C-82.027944&vehicle=bike&locale=en-US&layer=Esri%20Aerial)
+- [Test 62 - Golf Cart/ Cycleway allowed](http://52.5.34.35:8888/?point=28.936796%2C-81.94877&point=28.930411%2C-81.946442&locale=en-US&layer=MapQuest%20Aerial)
+
 
 Build the API
 -------------
