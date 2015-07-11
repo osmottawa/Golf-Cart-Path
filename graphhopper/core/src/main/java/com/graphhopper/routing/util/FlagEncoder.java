@@ -29,6 +29,11 @@ import com.graphhopper.util.Translation;
 public interface FlagEncoder extends TurnCostEncoder
 {
     /**
+     * @return the version of this FlagEncoder to enforce none-compatibility when new attributes are introduced
+     */
+    int getVersion();
+
+    /**
      * @return the maximum speed in km/h
      */
     double getMaxSpeed();
@@ -40,7 +45,7 @@ public interface FlagEncoder extends TurnCostEncoder
 
     /**
      * Sets the speed in km/h.
-     * <p>
+     * <p/>
      * @return modified setProperties
      */
     long setSpeed( long flags, double speed );
@@ -57,14 +62,14 @@ public interface FlagEncoder extends TurnCostEncoder
 
     /**
      * Sets the access of the edge.
-     * <p>
+     * <p/>
      * @return modified flags
      */
     long setAccess( long flags, boolean forward, boolean backward );
 
     /**
      * Sets speed and access properties.
-     * <p>
+     * <p/>
      * @return created flags
      */
     long setProperties( double speed, boolean forward, boolean backward );
@@ -105,7 +110,7 @@ public interface FlagEncoder extends TurnCostEncoder
     long setLong( long flags, int key, long value );
 
     /**
-     * Returns arbitrary long value identified by the specified key. E.g. can be used to return the
+     * Returns arbitrary double value identified by the specified key. E.g. can be used to return the
      * maximum width or height allowed for an edge.
      */
     double getDouble( long flags, int key );
