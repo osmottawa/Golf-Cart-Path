@@ -76,7 +76,7 @@ public class FootFlagEncoder extends AbstractFlagEncoder
     {
         super(speedBits, speedFactor, 0);
         restrictions.addAll(Arrays.asList("foot", "access"));
-        restrictedValues.add("private");
+        //restrictedValues.add("private");
         restrictedValues.add("no");
         restrictedValues.add("restricted");
         restrictedValues.add("military");
