@@ -69,7 +69,7 @@ API Testing
 - [Test 39 (FIXED) - Leaving the Parking lot](http://52.5.34.35:8888/?point=28.925796%2C-82.002452&point=28.925505%2C-82.002377&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 40 (FIXED) - Parking of building](http://52.5.34.35:8888/?point=28.92859%2C-82.027788&point=28.928801%2C-82.027043&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 41 (FIXED) - Entire Campus](http://52.5.34.35:8888/?point=28.925233%2C-82.028738&point=28.925176%2C-82.027386&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
-- [Test 42 - Can't access Facilities (Need opinion from Eddie)](http://52.5.34.35:8888/?point=28.929688%2C-82.028126&point=28.931491%2C-82.028298&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
+- [Test 42 (FIXED) - Can't access Facilities](http://52.5.34.35:8888/?point=28.929688%2C-82.028126&point=28.931491%2C-82.028298&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 43 (FIXED) - Advance Parking lot](http://52.5.34.35:8888/?point=28.925181%2C-82.026372&point=28.925275%2C-82.024484&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 44 (FIXED) - Lots of One way!](http://52.5.34.35:8888/?point=28.925312%2C-82.028614&point=28.923082%2C-82.02649&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 45 (FIXED) - Pass threw parking lot](http://52.5.34.35:8888/?point=28.929904%2C-82.017778&point=28.92905%2C-82.017859&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
@@ -87,10 +87,10 @@ API Testing
 - [Test 57 (FIXED) - Not allowed to cross highway](http://52.5.34.35:8888/?point=29.006714%2C-82.00367&point=29.006189%2C-82.008219&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 58 (FIXED) - Mosrse Blvd allowed (mentioned by Eddie) ](http://52.5.34.35:8888/?point=28.912334%2C-81.969109&point=28.929427%2C-81.945632&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 59 (FIXED) - New Parking lot](http://52.5.34.35:8888/?point=28.863712%2C-82.016351&point=28.865041%2C-82.016416&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
-- [Test 60 - Tunnel to Brownwood Blvd](http://52.5.34.35:8888/?point=28.845773%2C-82.02722&point=28.844688%2C-82.024763&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
+- [Test 60 - Tunnel to Brownwood Blvd](http://52.5.34.35:8888/?point=28.844909%2C-82.026957&point=28.844655%2C-82.024843&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 61 (FIXED) - New Parking lot](http://52.5.34.35:8888/?point=28.8444%2C-82.028068&point=28.84605%2C-82.027944&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 62 (FIXED) - Golf Cart/ Cycleway allowed](http://52.5.34.35:8888/?point=28.936796%2C-81.94877&point=28.930411%2C-81.946442&locale=en-US&layer=MapQuest%20Aerial)
-- [Test 63 (FXIED) - Pedestrian Path not allowed](http://52.5.34.35:8888/?point=28.909131%2C-81.970507&point=28.908296%2C-81.969611&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
+- [Test 63 (FXIED) - Pedestrian Path ONLY, golfcart not allowed](http://52.5.34.35:8888/?point=28.909131%2C-81.970507&point=28.908296%2C-81.969611&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 
 Build the API
 -------------
