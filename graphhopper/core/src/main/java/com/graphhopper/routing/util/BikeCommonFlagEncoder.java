@@ -237,6 +237,11 @@ public class BikeCommonFlagEncoder extends AbstractFlagEncoder
     public long acceptWay( OSMWay way )
     {
         String highwayValue = way.getTag("highway");
+        
+        // Prevents access on private golf courses
+        if (way.hasTag("golf", "cartpath") && way.hasTag("access", "private"))
+            return 0;
+
         if (highwayValue == null)
         {
             if (way.hasTag("route", ferries))
