@@ -22,12 +22,15 @@ import java.util.Set;
 
 import com.graphhopper.reader.OSMRelation;
 import com.graphhopper.reader.OSMWay;
+import com.graphhopper.util.PMap;
+
 import static com.graphhopper.routing.util.PriorityCode.*;
+
 import java.util.*;
 
 /**
  * Defines bit layout for pedestrians (speed, access, surface, ...).
- * <p>
+ * <p/>
  * @author Peter Karich
  * @author Nop
  * @author Karl Hübner
@@ -54,11 +57,19 @@ public class FootFlagEncoder extends AbstractFlagEncoder
         this(4, 1);
     }
 
+    public FootFlagEncoder( PMap properties )
+    {
+        this(
+                (int) properties.getLong("speedBits", 4),
+                properties.getDouble("speedFactor", 1)
+        );
+        this.properties = properties;
+        this.setBlockFords(properties.getBool("blockFords", true));
+    }
+
     public FootFlagEncoder( String propertiesStr )
     {
-        this((int) parseLong(propertiesStr, "speedBits", 4),
-                parseDouble(propertiesStr, "speedFactor", 1));
-        this.setBlockFords(parseBoolean(propertiesStr, "blockFords", true));
+        this(new PMap(propertiesStr));
     }
 
     public FootFlagEncoder( int speedBits, double speedFactor )
@@ -117,8 +128,14 @@ public class FootFlagEncoder extends AbstractFlagEncoder
         hikingNetworkToCode.put("nwn", BEST.getValue());
         hikingNetworkToCode.put("rwn", VERY_NICE.getValue());
         hikingNetworkToCode.put("lwn", VERY_NICE.getValue());
-        
+
         maxPossibleSpeed = FERRY_SPEED;
+    }
+
+    @Override
+    public int getVersion()
+    {
+        return 1;
     }
 
     @Override
@@ -153,7 +170,7 @@ public class FootFlagEncoder extends AbstractFlagEncoder
 
     /**
      * Foot flag encoder does not provide any turn cost / restrictions
-     * <p>
+     * <p/>
      * @return <code>false</code>
      */
     @Override
@@ -164,7 +181,7 @@ public class FootFlagEncoder extends AbstractFlagEncoder
 
     /**
      * Foot flag encoder does not provide any turn cost / restrictions
-     * <p>
+     * <p/>
      * @return 0
      */
     @Override
@@ -182,7 +199,6 @@ public class FootFlagEncoder extends AbstractFlagEncoder
     /**
      * Some ways are okay but not separate for pedestrians.
      * <p/>
-     * @param way
      */
     @Override
     public long acceptWay( OSMWay way )

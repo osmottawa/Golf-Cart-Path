@@ -4,6 +4,7 @@ HOME=$(dirname "$0")
 ACTION=$1
 FILE=$2
 export JETTY_PORT=8888
+export GH_FOREGROUND=false
 
 # Save PID File
 #./thevillages.sh &
@@ -11,8 +12,9 @@ export JETTY_PORT=8888
 
 
 function start {
+    cd graphhopper
     pkill java
-    ./graphhopper.sh web "TheVillages.osm.pbf"
+    ./graphhopper.sh web "../TheVillages.osm.pbf"
 }
 
 function printUsage {
@@ -25,7 +27,9 @@ function printUsage {
 }
 
 function update {
+
     # Download latest GeoFabrik
+    wget "http://download.geofabrik.de/north-america/us/florida-latest.osm.pbf" -O "florida-latest.osm.pbf"
     osmupdate "florida-latest.osm.pbf" "TheVillages-temp.osm.pbf" -B="TheVillages.poly" -v --keep-tempfiles
     osmosis --read-pbf file="TheVillages-temp.osm.pbf" --write-pbf file="TheVillages.osm.pbf"
     rm "TheVillages-temp.osm.pbf"
@@ -34,7 +38,8 @@ function update {
     rm -r "TheVillages.osm-gh"
 
     # Import for faster import
-    ./graphhopper.sh import "TheVillages.osm.pbf"
+    cd graphhopper
+    ./graphhopper.sh import "../TheVillages.osm.pbf"
 }
 
 if [ "$ACTION" = "" ]; then
@@ -50,6 +55,7 @@ if [ "$ACTION" = "init" ]; then
     sudo apt-get install osmosis
     sudo apt-get install osmctools
 
+    cd graphhopper
     ./graphhopper.sh clean
     ./graphhopper.sh build
     exit
