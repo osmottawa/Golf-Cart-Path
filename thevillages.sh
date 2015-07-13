@@ -41,6 +41,14 @@ function update {
     cd graphhopper
     ./graphhopper.sh import "../TheVillages.osm.pbf"
     ./graphhopper.sh build
+
+    # Send email notification
+    curl -s --user 'api:key-f3ba6afcd07a8f35e5061f625ecba051' \
+        https://api.mailgun.net/v3/samples.mailgun.org/messages \
+        -F from='Denis Carriere <info@addxy.com>' \
+        -F to='carriere.denis@gmail.com' \
+        -F subject='Updated: TheVillages Graphhopper API' \
+        -F text='Good news! The Graphhopper API for TheVillages has been updated!'
 }
 
 if [ "$ACTION" = "" ]; then
