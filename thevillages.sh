@@ -42,6 +42,9 @@ function update {
     ./graphhopper.sh import "../TheVillages.osm.pbf"
     ./graphhopper.sh build
 
+    # Restart Graphhopper server
+    start
+
     # Send email notification
     curl -s --user 'api:key-f3ba6afcd07a8f35e5061f625ecba051' \
         https://api.mailgun.net/v3/addxy.com/messages \
