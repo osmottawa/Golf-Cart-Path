@@ -40,6 +40,7 @@ function update {
     # Import for faster import
     cd graphhopper
     ./graphhopper.sh import "../TheVillages.osm.pbf"
+    ./graphhopper.sh build
 }
 
 if [ "$ACTION" = "" ]; then
