@@ -7,7 +7,7 @@ def send_simple_message(subject, text):
         "https://api.mailgun.net/v3/addxy.com/messages",
         auth=("api", "key-f3ba6afcd07a8f35e5061f625ecba051"),
         data={"from": "Denis Carriere <info@addxy.com>",
-              "to": ["carriere.denis@gmail.com"],
+              "to": ["Denis Carriere <carriere.denis@gmail.com>, Eddie Connell <Ewclighting@aol.com>, thevillagesgps@gmail.com"],
               "subject": subject,
               "text": text})
 
