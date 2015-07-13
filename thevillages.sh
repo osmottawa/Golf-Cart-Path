@@ -46,7 +46,7 @@ function update {
     curl -s --user 'api:key-f3ba6afcd07a8f35e5061f625ecba051' \
         https://api.mailgun.net/v3/addxy.com/messages \
         -F from='Denis Carriere <info@addxy.com>' \
-        -F to='Denis Carriere <carriere.denis@gmail.com>, Eddie Connell <Ewclighting@aol.com>, thevillagesgps@gmail.com' \
+        -F to='Denis Carriere <carriere.denis@gmail.com>, Eddie Connell <Ewclighting@aol.com>, The Villages GPS Team <thevillagesgps@gmail.com>' \
         -F subject='Updated: TheVillages Graphhopper API' \
         -F text='Good news! The Graphhopper API for TheVillages has been updated!'
 }
