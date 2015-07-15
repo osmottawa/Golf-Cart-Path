@@ -72,7 +72,7 @@ public class CarFlagEncoder extends AbstractFlagEncoder
     {
         super(speedBits, speedFactor, maxTurnCosts);
         restrictions.addAll(Arrays.asList("motorcar", "motor_vehicle", "vehicle", "access"));
-        //restrictedValues.add("private");
+        restrictedValues.add("private");
         restrictedValues.add("agricultural");
         restrictedValues.add("forestry");
         restrictedValues.add("no");

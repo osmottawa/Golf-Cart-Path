@@ -35,7 +35,7 @@ import java.util.*;
  * @author Nop
  * @author Karl Hübner
  */
-public class GolfCourseFlagEncoder extends AbstractFlagEncoder
+public class FakeBikeFlagEncoder extends AbstractFlagEncoder
 {
     static final int SLOW_SPEED = 10;
     static final int MEAN_SPEED = 15;
@@ -50,12 +50,12 @@ public class GolfCourseFlagEncoder extends AbstractFlagEncoder
     /**
      * Should be only instantiated via EncodingManager
      */
-    public GolfCourseFlagEncoder()
+    public FakeBikeFlagEncoder()
     {
         this(4, 1);
     }
 
-    public GolfCourseFlagEncoder( PMap properties )
+    public FakeBikeFlagEncoder( PMap properties )
     {
         this(
                 (int) properties.getLong("speedBits", 4),
@@ -65,18 +65,18 @@ public class GolfCourseFlagEncoder extends AbstractFlagEncoder
         this.setBlockFords(properties.getBool("blockFords", true));
     }
 
-    public GolfCourseFlagEncoder( String propertiesStr )
+    public FakeBikeFlagEncoder( String propertiesStr )
     {
         this(new PMap(propertiesStr));
     }
 
-    public GolfCourseFlagEncoder( int speedBits, double speedFactor )
+    public FakeBikeFlagEncoder( int speedBits, double speedFactor )
     {
         super(speedBits, speedFactor, 0);
-        restrictions.addAll(Arrays.asList("golf_cart", "access", "golf"));
+        restrictions.addAll(Arrays.asList("golf_cart", "access"));
         //restrictedValues.add("private");
-        restrictedValues.add("restricted");
         restrictedValues.add("no");
+        restrictedValues.add("restricted");
         restrictedValues.add("military");
 
         intendedValues.add("yes");
@@ -198,6 +198,10 @@ public class GolfCourseFlagEncoder extends AbstractFlagEncoder
     public long acceptWay( OSMWay way )
     {
         String highwayValue = way.getTag("highway");
+        
+        // Prevents access on Private GolfPath
+        if (way.hasTag("golf", "cartpath") && way.hasTag("access", "private"))
+            return 0;
 
         if (highwayValue == null)
         {
@@ -400,6 +404,6 @@ public class GolfCourseFlagEncoder extends AbstractFlagEncoder
     @Override
     public String toString()
     {
-        return "golfcourse";
+        return "bike";
     }
 }

@@ -49,7 +49,6 @@ public class EncodingManager
     public static final String FOOT = "foot";
     public static final String MOTORCYCLE = "motorcycle";
     public static final String GOLFCART = "golfcart";
-    public static final String GOLFCOURSE = "golfcourse";
 
     private final List<AbstractFlagEncoder> edgeEncoders = new ArrayList<AbstractFlagEncoder>();
 
@@ -144,7 +143,7 @@ public class EncodingManager
                 fe = new CarFlagEncoder(configuration);
 
             else if (entry.equals(BIKE))
-                fe = new BikeFlagEncoder(configuration);
+                fe = new FakeBikeFlagEncoder(configuration);
 
             else if (entry.equals(BIKE2))
                 fe = new Bike2WeightFlagEncoder(configuration);
@@ -163,9 +162,6 @@ public class EncodingManager
 
             else if (entry.equals(GOLFCART))
                 fe = new GolfCartFlagEncoder(configuration);
-
-            else if (entry.equals(GOLFCOURSE))
-                fe = new GolfCourseFlagEncoder(configuration);
 
             else
                 throw new IllegalArgumentException("entry in encoder list not supported " + entry);

@@ -273,8 +273,6 @@ public class GraphHopperStorage implements GraphStorage
         {
             long newBytesCapacity = nodes.getCapacity();
             initNodeRefs(oldNodes * nodeEntryBytes, newBytesCapacity);
-            if (removedNodes != null)
-                getRemovedNodes().ensureCapacity((int) (newBytesCapacity / nodeEntryBytes));
         }
 
     }
@@ -326,11 +324,10 @@ public class GraphHopperStorage implements GraphStorage
         EdgeIterable iter = new EdgeIterable(EdgeFilter.ALL_EDGES);
         iter.setBaseNode(a);
         iter.setEdgeId(edge);
-        if (extStorage.isRequireEdgeField())
-        {
-            iter.setAdditionalField(extStorage.getDefaultEdgeFieldValue());
-        }
         iter.next();
+
+        if (extStorage.isRequireEdgeField())
+            iter.setAdditionalField(extStorage.getDefaultEdgeFieldValue());
         return iter;
     }
 
@@ -507,6 +504,7 @@ public class GraphHopperStorage implements GraphStorage
         private final long maxEdges = (long) edgeCount * edgeEntryBytes;
         private int nodeA;
         private int nodeB;
+        // we need reverse if detach is called
         private boolean reverse = false;
 
         public AllEdgeIterator()
@@ -527,7 +525,8 @@ public class GraphHopperStorage implements GraphStorage
                 edgePointer += edgeEntryBytes;
                 nodeA = edges.getInt(edgePointer + E_NODEA);
                 nodeB = edges.getInt(edgePointer + E_NODEB);
-                reverse = getBaseNode() > getAdjNode();
+                // this is always false because of 'getBaseNode() <= getAdjNode()'
+                reverse = false;
                 // some edges are deleted and have a negative node
             } while (nodeA == NO_NODE && edgePointer < maxEdges);
             return edgePointer < maxEdges;
@@ -1135,7 +1134,7 @@ public class GraphHopperStorage implements GraphStorage
     private GHBitSet getRemovedNodes()
     {
         if (removedNodes == null)
-            removedNodes = new GHBitSetImpl((int) (nodes.getCapacity() / 4));
+            removedNodes = new GHBitSetImpl((int) getNodes());
 
         return removedNodes;
     }
@@ -1514,7 +1513,7 @@ public class GraphHopperStorage implements GraphStorage
             bounds.maxEle = Helper.intToEle(nodes.getHeader(8 * 4));
         }
 
-        return 7;
+        return 9;
     }
 
     protected int setNodesHeader()
@@ -1532,7 +1531,7 @@ public class GraphHopperStorage implements GraphStorage
             nodes.setHeader(8 * 4, Helper.eleToInt(bounds.maxEle));
         }
 
-        return 7;
+        return 9;
     }
 
     protected int loadEdgesHeader()
