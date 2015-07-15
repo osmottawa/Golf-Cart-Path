@@ -144,7 +144,7 @@ public class EncodingManager
                 fe = new CarFlagEncoder(configuration);
 
             else if (entry.equals(BIKE))
-                fe = new GolfCartFlagEncoder(configuration);
+                fe = new BikeFlagEncoder(configuration);
 
             else if (entry.equals(BIKE2))
                 fe = new Bike2WeightFlagEncoder(configuration);
