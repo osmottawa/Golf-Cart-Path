@@ -142,9 +142,8 @@ public class EncodingManager
             if (entry.equals(CAR))
                 fe = new CarFlagEncoder(configuration);
 
-            //Changed for Proxy GolfCart
             else if (entry.equals(BIKE))
-                fe = new ProxyGolfCartFlagEncoder(configuration);
+                fe = new FakeBikeFlagEncoder(configuration);
 
             else if (entry.equals(BIKE2))
                 fe = new Bike2WeightFlagEncoder(configuration);

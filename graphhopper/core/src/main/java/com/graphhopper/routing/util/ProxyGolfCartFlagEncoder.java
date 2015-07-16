@@ -33,19 +33,19 @@ import java.util.*;
  * @author ratrun
  * @author Peter Karich
  */
-public class GolfCartFlagEncoder extends BikeCommonFlagEncoder
+public class ProxyGolfCartFlagEncoder extends BikeCommonFlagEncoder
 {
-    public GolfCartFlagEncoder()
+    public ProxyGolfCartFlagEncoder()
     {
         this(4, 2, 0);
     }
 
-    public GolfCartFlagEncoder( String propertiesString )
+    public ProxyGolfCartFlagEncoder( String propertiesString )
     {
         this(new PMap(propertiesString));
     }
 
-    public GolfCartFlagEncoder( PMap properties )
+    public ProxyGolfCartFlagEncoder( PMap properties )
     {
         this((int) properties.getLong("speedBits", 4),
                 properties.getLong("speedFactor", 2),
@@ -54,7 +54,7 @@ public class GolfCartFlagEncoder extends BikeCommonFlagEncoder
         this.setBlockFords(properties.getBool("blockFords", true));
     }
 
-    public GolfCartFlagEncoder( int speedBits, double speedFactor, int maxTurnCosts )
+    public ProxyGolfCartFlagEncoder( int speedBits, double speedFactor, int maxTurnCosts )
     {
         super(speedBits, speedFactor, maxTurnCosts);
         addPushingSection("path");
@@ -99,6 +99,6 @@ public class GolfCartFlagEncoder extends BikeCommonFlagEncoder
     @Override
     public String toString()
     {
-        return "golfcart";
+        return "bike";
     }
 }

@@ -35,7 +35,7 @@ import java.util.*;
  * @author Nop
  * @author Karl Hübner
  */
-public class FakeBikeFlagEncoder extends AbstractFlagEncoder
+public class GolfCartFlagEncoder extends AbstractFlagEncoder
 {
     static final int SLOW_SPEED = 10;
     static final int MEAN_SPEED = 15;
@@ -50,12 +50,12 @@ public class FakeBikeFlagEncoder extends AbstractFlagEncoder
     /**
      * Should be only instantiated via EncodingManager
      */
-    public FakeBikeFlagEncoder()
+    public GolfCartFlagEncoder()
     {
         this(4, 1);
     }
 
-    public FakeBikeFlagEncoder( PMap properties )
+    public GolfCartFlagEncoder( PMap properties )
     {
         this(
                 (int) properties.getLong("speedBits", 4),
@@ -65,12 +65,12 @@ public class FakeBikeFlagEncoder extends AbstractFlagEncoder
         this.setBlockFords(properties.getBool("blockFords", true));
     }
 
-    public FakeBikeFlagEncoder( String propertiesStr )
+    public GolfCartFlagEncoder( String propertiesStr )
     {
         this(new PMap(propertiesStr));
     }
 
-    public FakeBikeFlagEncoder( int speedBits, double speedFactor )
+    public GolfCartFlagEncoder( int speedBits, double speedFactor )
     {
         super(speedBits, speedFactor, 0);
         restrictions.addAll(Arrays.asList("golf_cart", "access"));
@@ -404,6 +404,6 @@ public class FakeBikeFlagEncoder extends AbstractFlagEncoder
     @Override
     public String toString()
     {
-        return "bike";
+        return "golfcart";
     }
 }

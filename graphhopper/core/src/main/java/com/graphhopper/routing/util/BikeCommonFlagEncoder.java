@@ -69,8 +69,8 @@ public class BikeCommonFlagEncoder extends AbstractFlagEncoder
     {
         super(speedBits, speedFactor, maxTurnCosts);
         // strict set, usually vehicle and agricultural/forestry are ignored by cyclists
-        restrictions.addAll(Arrays.asList("bicycle", "access"));
-        restrictedValues.add("private");
+        restrictions.addAll(Arrays.asList("golf_cart", "access"));
+        //restrictedValues.add("private");
         restrictedValues.add("no");
         restrictedValues.add("restricted");
         restrictedValues.add("military");
@@ -237,6 +237,11 @@ public class BikeCommonFlagEncoder extends AbstractFlagEncoder
     public long acceptWay( OSMWay way )
     {
         String highwayValue = way.getTag("highway");
+
+        // Prevents access on Private GolfPath
+        if (way.hasTag("golf", "cartpath") && way.hasTag("access", "private"))
+            return 0;
+
         if (highwayValue == null)
         {
             if (way.hasTag("route", ferries))
