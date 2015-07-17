@@ -36,6 +36,9 @@ function update {
 
     # Remove Graphhopper Cache
     rm -r "TheVillages.osm-gh"
+
+    # Start Graphhopper
+    start
 }
 
 if [ "$ACTION" = "" ]; then

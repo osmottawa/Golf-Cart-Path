@@ -593,6 +593,7 @@ public class BikeCommonFlagEncoder extends AbstractFlagEncoder
         // Populate bits at wayTypeMask with wayType            
         WayType wayType = WayType.OTHER_SMALL_WAY;
         boolean isPusingSection = isPushingSection(way);
+        
         if (isPusingSection && !partOfCycleRelation || "steps".equals(highway))
             wayType = WayType.PUSHING_SECTION;
 
@@ -762,7 +763,7 @@ public class BikeCommonFlagEncoder extends AbstractFlagEncoder
     {
         bikeNetworkToCode.put(network, code);
     }
-
+    
     void addPushingSection( String highway )
     {
         pushingSections.add(highway);
