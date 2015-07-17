@@ -1,3 +1,9 @@
+# OSM created files
+osmupdate_temp/
+florida-latest.osm.pbf
+TheVillages.osm.pbf
+TheVillages.osm-gh/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

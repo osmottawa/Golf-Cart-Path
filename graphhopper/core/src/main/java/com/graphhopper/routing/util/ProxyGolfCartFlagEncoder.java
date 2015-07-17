@@ -57,10 +57,10 @@ public class ProxyGolfCartFlagEncoder extends BikeCommonFlagEncoder
     public ProxyGolfCartFlagEncoder( int speedBits, double speedFactor, int maxTurnCosts )
     {
         super(speedBits, speedFactor, maxTurnCosts);
-        addPushingSection("path");
-        addPushingSection("footway");
-        addPushingSection("pedestrian");
-        addPushingSection("steps");
+        //addPushingSection("path");
+        //addPushingSection("footway");
+        //addPushingSection("pedestrian");
+        //addPushingSection("steps");
 
         avoidHighwayTags.add("trunk");
         avoidHighwayTags.add("trunk_link");
