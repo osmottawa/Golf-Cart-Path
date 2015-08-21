@@ -62,6 +62,7 @@ public class GolfCartFlagEncoder extends BikeCommonFlagEncoder
         //addPushingSection("pedestrian");
         //addPushingSection("steps");
 
+        avoidHighwayTags.add("footway");
         avoidHighwayTags.add("trunk");
         avoidHighwayTags.add("trunk_link");
         avoidHighwayTags.add("primary");
