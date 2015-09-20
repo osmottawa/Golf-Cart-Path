@@ -102,17 +102,14 @@ API Testing
 - [Test 63 (FXIED) - Pedestrian Path ONLY, golfcart not allowed](http://52.5.34.35:8888/?point=28.909131%2C-81.970507&point=28.908296%2C-81.969611&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 64 (FIXED) - Oneway blocking cart path (mentioned by Eddie)](http://52.5.34.35:8888/?point=28.861062%2C-82.000365&point=28.862246%2C-81.997447&vehicle=golfcart&locale=en-US&layer=Lyrk)
 - [Test 65 (FIXED) - New Villa](http://52.5.34.35:8888/?point=28.865647%2C-81.990613&point=28.865939%2C-81.988049&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
-<<<<<<< HEAD
 - [Test 66 - No more cycleway](http://52.5.34.35:8888/?point=28.864515%2C-81.962643&point=28.864529%2C-81.963549&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 67 - Golf Cart parking lot only - Test no vehicles allowed](http://52.5.34.35:8888/?point=28.859371%2C-81.975968&point=28.859878%2C-81.976848&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 68 - Can't cross main street](http://52.5.34.35:8888/?point=28.864736%2C-81.957246&point=28.86654%2C-81.954982&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
-=======
 - [Test 66 (FIXED) - No more cycleway](http://52.5.34.35:8888/?point=28.864515%2C-81.962643&point=28.864529%2C-81.963549&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 67 (FIXED) - Golf Cart parking lot only - Test no vehicles allowed](http://52.5.34.35:8888/?point=28.859371%2C-81.975968&point=28.859878%2C-81.976848&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 68 (FIXED) - Can't cross main street](http://52.5.34.35:8888/?point=28.864736%2C-81.957246&point=28.86654%2C-81.954982&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 69 (FIXED) - Oneway cycleway - Mentioned by Eddi](http://52.5.34.35:8888/?point=28.930932%2C-82.000633&point=28.932247%2C-82.00102&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 70 (FIXED) - Paved routes in routing](http://52.5.34.35:8888/?point=28.930932%2C-82.000633&point=28.932247%2C-82.00102&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
->>>>>>> 4d586c33927bf56051470d7d5f82e9d656336080
 
 Build the API
 -------------
