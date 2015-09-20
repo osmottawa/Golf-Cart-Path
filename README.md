@@ -5,28 +5,21 @@ The Villages Data
 -----------------
 
 [Google Maps](https://www.google.com/maps/d/edit?mid=zfMvRdC3zsZY.k0QIZW2GUCvg) which shows all the following features:
+
 - Golf Cart Paths
 - Pools
 - Villas
 - Golf Clubs
 - Basket ball courts
 
-<<<<<<< HEAD
-[District Gov](http://www.districtgov.org/departments/Recreation/recreation.aspx) Recreational Maps available.
-
-=======
-[Lake County GIS files](https://www.lakecountyfl.gov/departments/information_technology/geographic_information_services/datadownloads.aspx)
-
-[Sumter County GIS files](http://sumtercountyfl.gov/238/Downloadable-Maps)
-
-[District Gov](http://www.districtgov.org/departments/Recreation/recreation.aspx) Recreational Maps available.
-
 Other Related websites
 ----------------------
 
+- [District Gov](http://www.districtgov.org/departments/Recreation/recreation.aspx) Recreational Maps available.
+- [Lake County GIS files](https://www.lakecountyfl.gov/departments/information_technology/geographic_information_services/datadownloads.aspx)
+- [Sumter County GIS files](http://sumtercountyfl.gov/238/Downloadable-Maps)
 - [TheVillagesFL.us][http://www.thevillagesfl.us/]
 
->>>>>>> 4d586c33927bf56051470d7d5f82e9d656336080
 Using Graphhopper
 -----------------
 
