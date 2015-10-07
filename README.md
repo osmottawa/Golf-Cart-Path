@@ -18,7 +18,7 @@ Other Related websites
 - [District Gov](http://www.districtgov.org/departments/Recreation/recreation.aspx) Recreational Maps available.
 - [Lake County GIS files](https://www.lakecountyfl.gov/departments/information_technology/geographic_information_services/datadownloads.aspx)
 - [Sumter County GIS files](http://sumtercountyfl.gov/238/Downloadable-Maps)
-- [TheVillagesFL.us][http://www.thevillagesfl.us/]
+- [TheVillagesFL.us](http://www.thevillagesfl.us/)
 
 Using Graphhopper
 -----------------
