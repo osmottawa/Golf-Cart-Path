@@ -111,6 +111,9 @@ API Testing
 - [Test 68 (FIXED) - Can't cross main street](http://52.5.34.35:8888/?point=28.864736%2C-81.957246&point=28.86654%2C-81.954982&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 69 (FIXED) - Oneway cycleway - Mentioned by Eddi](http://52.5.34.35:8888/?point=28.930932%2C-82.000633&point=28.932247%2C-82.00102&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
 - [Test 70 (FIXED) - Paved routes in routing](http://52.5.34.35:8888/?point=28.930932%2C-82.000633&point=28.932247%2C-82.00102&vehicle=golfcart&locale=en-US&layer=Esri%20Aerial)
+- [Test 71 (FIXED) - New development](http://52.5.34.35:8888/?point=28.940205%2C-82.023561&point=28.939604%2C-82.01648&locale=en-US&layer=OpenStreetMap)
+- [Test 72 (FIXED) - New development](http://52.5.34.35:8888/?point=28.920016%2C-82.045212&point=28.919734%2C-82.051864&locale=en-US&layer=OpenStreetMap)
+- [Test 73 (FIXED) - New development](http://52.5.34.35:8888/?point=28.907583%2C-82.032657&point=28.905469%2C-82.033292&locale=en-US&layer=OpenStreetMap)
 
 Build the API
 -------------
