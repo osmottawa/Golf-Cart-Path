@@ -1,0 +1,39 @@
+upstream thevillages {
+    server 127.0.0.1:8888;
+}
+
+server {
+    listen 443 ssl http2;
+    listen [::]:443 ssl http2;
+
+    server_name thevillages.addxy.com;
+
+    ssl_certificate             /etc/letsencrypt/live/thevillages.addxy.com/fullchain.pem;
+    ssl_certificate_key         /etc/letsencrypt/live/thevillages.addxy.com/privkey.pem;
+    ssl_trusted_certificate     /etc/letsencrypt/live/thevillages.addxy.com/fullchain.pem;
+
+
+    location / {
+        proxy_pass http://thevillages;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+}
+
+server {
+    server_name www.thevillages.addxy.com thevillages.addxy.com;
+    return 301 https://thevillages.addxy.com$request_uri;
+}
+
+server {
+    listen 443 ssl http2;
+    listen [::]:443 ssl http2;
+
+    ssl_certificate             /etc/letsencrypt/live/thevillages.addxy.com/fullchain.pem;
+    ssl_certificate_key         /etc/letsencrypt/live/thevillages.addxy.com/privkey.pem;
+    ssl_trusted_certificate     /etc/letsencrypt/live/thevillages.addxy.com/fullchain.pem;
+
+    server_name www.thevillages.addxy.com;
+    return 301 https://thevillages.addxy.com$request_uri;
+}
