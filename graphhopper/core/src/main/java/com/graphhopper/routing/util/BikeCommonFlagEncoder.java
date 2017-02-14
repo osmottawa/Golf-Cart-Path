@@ -262,10 +262,6 @@ public class BikeCommonFlagEncoder extends AbstractFlagEncoder
         if (!highwaySpeeds.containsKey(highwayValue))
             return 0;
 
-        // use the way if it is tagged for bikes
-        if (way.hasTag("bicycle", intendedValues))
-            return acceptBit;
-
         // accept only if explicitely tagged for bike usage
         if ("motorway".equals(highwayValue) || "motorway_link".equals(highwayValue))
             return 0;
