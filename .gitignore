@@ -15,7 +15,7 @@ pid.file
 
 # OSM files
 *.osm
-
+node_modules
 # Background processes
 nohup.out
 

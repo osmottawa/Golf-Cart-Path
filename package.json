@@ -1,0 +1,24 @@
+{
+  "name": "golf-cart-path",
+  "version": "1.0.0",
+  "description": "Golf Cart routing API =====================",
+  "main": "count_logs.js",
+  "dependencies": {
+    "@turf/turf": "^3.9.0",
+    "geoip-lite": "^1.1.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmottawa/Golf-Cart-Path.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osmottawa/Golf-Cart-Path/issues"
+  },
+  "homepage": "https://github.com/osmottawa/Golf-Cart-Path#readme"
+}

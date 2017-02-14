@@ -1,0 +1,1539 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.129.204",
+        "count": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.139.12",
+        "count": 142
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1660219840,
+          1660220927
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "98.244.243.128",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1113035776,
+          1113036287
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Apopka",
+        "ll": [
+          28.6762,
+          -81.5119
+        ],
+        "metro": 534,
+        "ip": "66.87.148.71",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5119,
+          28.6762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1230700544,
+          1230708735
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Venice",
+        "ll": [
+          27.1019,
+          -82.3826
+        ],
+        "metro": 539,
+        "ip": "73.91.3.13",
+        "count": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3826,
+          27.1019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1277004800,
+          1277005823
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Orlando",
+        "ll": [
+          28.5341,
+          -81.1647
+        ],
+        "metro": 534,
+        "ip": "76.29.143.54",
+        "count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1647,
+          28.5341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2923089920,
+          2923091967
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "174.58.214.109",
+        "count": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2923406336,
+          2923407871
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "174.63.168.93",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1226146816,
+          1226147327
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "73.21.132.22",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1133408256,
+          1133408767
+        ],
+        "country": "US",
+        "region": "MO",
+        "city": "",
+        "ll": [
+          38.5783,
+          -90.6666
+        ],
+        "metro": 0,
+        "ip": "67.142.113.57",
+        "count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.6666,
+          38.5783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2889482240,
+          2889490431
+        ],
+        "country": "US",
+        "region": "CA",
+        "city": "",
+        "ll": [
+          34.0544,
+          -118.244
+        ],
+        "metro": 0,
+        "ip": "172.58.4.188",
+        "count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.244,
+          34.0544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2796338688,
+          2796339199
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "",
+        "ll": [
+          28.6344,
+          -81.6221
+        ],
+        "metro": 0,
+        "ip": "166.172.191.18",
+        "count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6221,
+          28.6344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2796338176,
+          2796338431
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "",
+        "ll": [
+          28.6344,
+          -81.6221
+        ],
+        "metro": 0,
+        "ip": "166.172.188.17",
+        "count": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6221,
+          28.6344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.4.211",
+        "count": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.139.125",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1227512320,
+          1227512831
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "73.42.91.253",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2923406336,
+          2923407871
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "174.63.168.133",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1146420224,
+          1146420479
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.9235,
+          -81.9185
+        ],
+        "metro": 534,
+        "ip": "68.84.252.163",
+        "count": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9185,
+          28.9235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2796338176,
+          2796338431
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "",
+        "ll": [
+          28.6344,
+          -81.6221
+        ],
+        "metro": 0,
+        "ip": "166.172.188.228",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6221,
+          28.6344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1113035776,
+          1113036287
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Apopka",
+        "ll": [
+          28.6762,
+          -81.5119
+        ],
+        "metro": 534,
+        "ip": "66.87.148.160",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5119,
+          28.6762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.11.224",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2796338688,
+          2796339199
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "",
+        "ll": [
+          28.6344,
+          -81.6221
+        ],
+        "metro": 0,
+        "ip": "166.172.191.205",
+        "count": 55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6221,
+          28.6344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1804687872,
+          1804687999
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Wildwood",
+        "ll": [
+          28.8654,
+          -82.0406
+        ],
+        "metro": 534,
+        "ip": "107.145.90.73",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0406,
+          28.8654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1113035776,
+          1113036287
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Apopka",
+        "ll": [
+          28.6762,
+          -81.5119
+        ],
+        "metro": 534,
+        "ip": "66.87.149.148",
+        "count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5119,
+          28.6762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1229152256,
+          1229160447
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "73.67.116.247",
+        "count": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.12.12",
+        "count": 113
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2923409664,
+          2923409919
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "174.63.177.5",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2889357312,
+          2889358335
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Fort Lauderdale",
+        "ll": [
+          26.1223,
+          -80.1434
+        ],
+        "metro": 528,
+        "ip": "172.56.27.106",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1434,
+          26.1223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1226178048,
+          1226178559
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Ocala",
+        "ll": [
+          29.1252,
+          -82.0029
+        ],
+        "metro": 534,
+        "ip": "73.21.255.164",
+        "count": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0029,
+          29.1252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1229152256,
+          1229160447
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "73.67.116.125",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.7.144",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.0.128",
+        "count": 37
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          3087145984,
+          3087147007
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.9235,
+          -81.9185
+        ],
+        "metro": 534,
+        "ip": "184.2.29.98",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9185,
+          28.9235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1800237056,
+          1800257535
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "107.77.168.41",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.142.92",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2796338688,
+          2796339199
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "",
+        "ll": [
+          28.6344,
+          -81.6221
+        ],
+        "metro": 0,
+        "ip": "166.172.190.106",
+        "count": 64
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6221,
+          28.6344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2796338432,
+          2796338687
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Cape Coral",
+        "ll": [
+          26.5629,
+          -81.9495
+        ],
+        "metro": 571,
+        "ip": "166.172.189.158",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9495,
+          26.5629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          3087302656,
+          3087310847
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Summerfield",
+        "ll": [
+          29.0071,
+          -82.0513
+        ],
+        "metro": 534,
+        "ip": "184.4.128.70",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0513,
+          29.0071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1191222272,
+          1191223295
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "71.0.158.79",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1800237056,
+          1800257535
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "107.77.168.33",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1660222080,
+          1660223359
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "98.244.254.96",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1229144064,
+          1229152255
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.9235,
+          -81.9185
+        ],
+        "metro": 534,
+        "ip": "73.67.84.59",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9185,
+          28.9235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1227506176,
+          1227506559
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "73.42.66.69",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          3087298560,
+          3087302655
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Ocala",
+        "ll": [
+          29.02,
+          -82.1902
+        ],
+        "metro": 534,
+        "ip": "184.4.124.207",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1902,
+          29.02
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2923089920,
+          2923091967
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "174.58.212.215",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2923096576,
+          2923096831
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.9235,
+          -81.9185
+        ],
+        "metro": 534,
+        "ip": "174.58.234.23",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9185,
+          28.9235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1162188800,
+          1162189823
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "69.69.155.38",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.132.218",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1634203392,
+          1634205695
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "97.103.247.183",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1226341376,
+          1226342399
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "73.24.126.43",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.134.122",
+        "count": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1230700544,
+          1230708735
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Venice",
+        "ll": [
+          27.1019,
+          -82.3826
+        ],
+        "metro": 539,
+        "ip": "73.91.2.160",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3826,
+          27.1019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1229152256,
+          1229160447
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "73.67.107.151",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2796338688,
+          2796339199
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "",
+        "ll": [
+          28.6344,
+          -81.6221
+        ],
+        "metro": 0,
+        "ip": "166.172.190.58",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6221,
+          28.6344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.6.97",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          1230700544,
+          1230708735
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Venice",
+        "ll": [
+          27.1019,
+          -82.3826
+        ],
+        "metro": 539,
+        "ip": "73.91.3.91",
+        "count": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3826,
+          27.1019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          3087142912,
+          3087145215
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Lady Lake",
+        "ll": [
+          28.94,
+          -81.9897
+        ],
+        "metro": 534,
+        "ip": "184.2.20.229",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9897,
+          28.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2889357312,
+          2889358335
+        ],
+        "country": "US",
+        "region": "FL",
+        "city": "Fort Lauderdale",
+        "ll": [
+          26.1223,
+          -80.1434
+        ],
+        "metro": 528,
+        "ip": "172.56.26.79",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1434,
+          26.1223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "range": [
+          2934097408,
+          2934210559
+        ],
+        "country": "US",
+        "region": "",
+        "city": "",
+        "ll": [
+          37.751,
+          -97.822
+        ],
+        "metro": 0,
+        "ip": "174.227.128.52",
+        "count": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.822,
+          37.751
+        ]
+      }
+    }
+  ]
+}
