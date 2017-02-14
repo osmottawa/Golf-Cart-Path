@@ -258,6 +258,9 @@ public class BikeCommonFlagEncoder extends AbstractFlagEncoder
 
             return 0;
         }
+        // use the way if it is tagged for bikes
+        if (way.hasTag("golf_cart", intendedValues))
+            return acceptBit;
 
         if (!highwaySpeeds.containsKey(highwayValue))
             return 0;
